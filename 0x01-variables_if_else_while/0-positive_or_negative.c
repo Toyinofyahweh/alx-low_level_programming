@@ -7,10 +7,7 @@
 
 
 /**
- * main - Printing positive, negative and zero
- *
- * Description: depending on the value of n, print positive
- * negative or zero
+ * main-program entry point
  *
  * Return: Always 0 (Successful)
  */
@@ -36,7 +33,6 @@ int main(void)
 					printf("%d is zero\n", n);
 					}
 					else if (n < 0)
-					{
 					printf("%d is negative\n", n);
 
 					return (0);
