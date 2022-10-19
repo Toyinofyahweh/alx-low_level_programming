@@ -3,16 +3,18 @@
  * print_alphabet_x10 - prints all alphabets in lowercase 10 times.
  * Return: On success 1.
  */
+
 void print_alphabet_x10(void)
 {
-	char i, k;
+	char alpha;
+	int counter;
 
-	for (k = 0; k < 10; k++)
+	for (counter = 1; counter <= 10; counter++)
 	{
 
-		for (i = 'a'; i <= 'z'; i++)
+		for (alpha = 'a'; alpha <= 'z'; alpha++)
 		{
-			_putchar(i);
+			_putchar(alpha);
 		}
 		putchar('\n');
 	}
