@@ -5,12 +5,12 @@
  * @a: first integer
  * @b: second integer
  * @c: third integer
- * Return: largest number
+ * Return: 0
  */
 
 int largest_number(int a, int b, int c)
 {
-	int a, b, c;
+	a, b, c;
 
 	printf("972, -98, 0: \n");
 	scanf("%d %d %d", &a, &b, &c);
@@ -28,5 +28,5 @@ int largest_number(int a, int b, int c)
 		printf("%d is the largest number.\n", c);
 	}
 
-	return (largest);
+	return (0);
 }
