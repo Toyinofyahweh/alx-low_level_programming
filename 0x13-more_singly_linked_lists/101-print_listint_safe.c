@@ -9,7 +9,7 @@
 
 void free_listp(listp_t **head)
 {
-	istp_t *temp;
+	listp_t *temp;
 	listp_t *curr;
 
 	if (head != NULL)
